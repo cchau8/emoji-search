@@ -2,9 +2,9 @@ import React from "react";
 
 const Line = ({ title, symbol }) => {
 	return (
-		<div>
+		<li>
 			<span>{symbol}</span> <span>{title}</span>
-		</div>
+		</li>
 	);
 };
 
